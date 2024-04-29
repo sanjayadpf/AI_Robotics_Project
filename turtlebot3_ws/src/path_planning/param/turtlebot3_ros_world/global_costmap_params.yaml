@@ -1,0 +1,17 @@
+global_costmap:
+   global_frame: map
+   robot_base_frame: base_footprint
+   update_frequency: 0.2 #1.0
+   publish_frequency: 0.2
+   transform_tolerance: 0.5
+   static_map: true 
+   #modified
+   width: 200.0  # Increased size
+   height: 200.0
+   resolution: 0.05
+   origin_x: -100.0  # Adjusted origin to allow more space
+   origin_y: -100.0
+
+# uncomment to remove the need for an a priori map
+#   plugins: []
+
